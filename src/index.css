@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ai-dark: #0b121c;
+}
+
+/* ── Global resets ── */
+body {
+  background-color: var(--color-ai-dark);
+  color: white;
+  margin: 0;
+}
+
+/* ── Shared utilities ── */
+.icon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.color-emerald { color: #34d399; }
+.color-orange  { color: #fb923c; }
+.color-blue    { color: #60a5fa; }
